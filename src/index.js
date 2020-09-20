@@ -1,5 +1,9 @@
-const Logger = require('./logger');
+const { Logger } = require('./logger');
 const myLogger = new Logger
 
-myLogger.emit("new_message")
+myLogger.on("new_message", (args) => {
+    console.log("On: " + args);
+})
+
+myLogger.log("darova listener")
 

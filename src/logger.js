@@ -2,7 +2,7 @@ const EventEmmiter = require('events');
 
 class Logger extends EventEmmiter {
     log(message) {
-        this.on("new_message", message)
+        this.emit("new_message", message)
     }
 }
 
