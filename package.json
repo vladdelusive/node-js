@@ -1,0 +1,27 @@
+{
+  "name": "node_training",
+  "version": "1.0.0",
+  "description": "my training in node environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladdelusive/node-js.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "node"
+  ],
+  "author": "vladdelusive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladdelusive/node-js/issues"
+  },
+  "homepage": "https://github.com/vladdelusive/node-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
