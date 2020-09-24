@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/vladdelusive/node-js#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "joi": "^17.2.1"
   }
 }
