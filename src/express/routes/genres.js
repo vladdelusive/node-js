@@ -2,7 +2,7 @@ const express = require('express');
 const route = express.Router()
 
 const { genres } = require('../genres');
-const { validateGenre } = require('../validate');
+const { validateGenre } = require('../validation/validate');
 
 route.get('/', (req, res) => {
     res.send(genres);
