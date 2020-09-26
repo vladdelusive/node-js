@@ -1,7 +1,7 @@
 const express = require('express');
 const route = express.Router()
 
-const { genres } = require('../genres');
+const { genres } = require('../bd/genres');
 const { validateGenre } = require('../validation/validate');
 
 route.get('/', (req, res) => {
